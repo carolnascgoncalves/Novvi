@@ -1,0 +1,12 @@
+D:\Novvi\Novvi\Novvi.Domain\bin\Debug\net9.0\Novvi.Domain.deps.json
+D:\Novvi\Novvi\Novvi.Domain\bin\Debug\net9.0\Novvi.Domain.dll
+D:\Novvi\Novvi\Novvi.Domain\bin\Debug\net9.0\Novvi.Domain.pdb
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.AssemblyInfoInputs.cache
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.AssemblyInfo.cs
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.csproj.CoreCompileInputs.cache
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.sourcelink.json
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.dll
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\refint\Novvi.Domain.dll
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.pdb
+D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\ref\Novvi.Domain.dll

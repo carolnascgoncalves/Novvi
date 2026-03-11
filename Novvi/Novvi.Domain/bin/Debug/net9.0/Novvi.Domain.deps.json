@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Novvi.Domain/1.0.0": {
+        "runtime": {
+          "Novvi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Novvi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
