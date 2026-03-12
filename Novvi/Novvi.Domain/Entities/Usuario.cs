@@ -9,8 +9,8 @@ public class Usuario : EntidadeBase
     public string Nome { get; private set; }
     public string Email { get; private set; }
     
-    public List<Endereco> Enderecos { get; set; }
-    public List<Pedido> HistoricoPedidos { get; set; }
+    public List<Endereco> Enderecos { get; private set; }
+    public List<Pedido> HistoricoPedidos { get; private set; }
 
     public Usuario(string nome, string email, List<Endereco> enderecos)
     {
