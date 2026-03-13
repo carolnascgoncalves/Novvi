@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "HW8d3Y7A220=",
+  "dgSpecHash": "XCQvN0iTKPo=",
   "success": true,
-  "projectFilePath": "D:\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
+  "projectFilePath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\labsfiap\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
-    "C:\\Users\\labsfiap\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.13\\microsoft.netcore.app.host.win-x64.9.0.13.nupkg.sha512"
   ],
   "logs": []
 }

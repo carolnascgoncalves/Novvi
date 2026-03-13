@@ -91,40 +91,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\labsfiap\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ADM\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
+      "projectUniqueName": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
       "projectName": "Novvi.Api",
-      "projectPath": "D:\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
-      "packagesPath": "C:\\Users\\labsfiap\\.nuget\\packages\\",
-      "outputPath": "D:\\Novvi\\Novvi\\Novvi.Api\\obj\\",
+      "projectPath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
+      "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
+      "outputPath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\labsfiap\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj": {
-              "projectPath": "D:\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj"
+            "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj": {
+              "projectPath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj"
             }
           }
         }
@@ -139,7 +131,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -161,6 +153,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.13, 9.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.13, 9.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.13, 9.0.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.13, 9.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -169,7 +179,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\ADM\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

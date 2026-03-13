@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "brnzharjhok=",
+  "dgSpecHash": "vgPQ3u3tQTs=",
   "success": true,
-  "projectFilePath": "D:\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\ADM\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
