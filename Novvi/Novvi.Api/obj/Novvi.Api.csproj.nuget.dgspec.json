@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj": {}
+    "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj": {}
   },
   "projects": {
-    "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj": {
+    "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
+        "projectUniqueName": "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
         "projectName": "Novvi.Api",
-        "projectPath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
+        "projectPath": "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Api\\Novvi.Api.csproj",
         "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
-        "outputPath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Api\\obj\\",
+        "outputPath": "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj": {
-                "projectPath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj"
+              "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj": {
+                "projectPath": "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj"
               }
             }
           }
@@ -42,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -50,7 +50,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -64,24 +64,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.13, 9.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[9.0.13, 9.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.13, 9.0.13]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.13, 9.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -90,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\ADM\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj": {
+    "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj",
+        "projectUniqueName": "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj",
         "projectName": "Novvi.Domain",
-        "projectPath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj",
+        "projectPath": "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Domain\\Novvi.Domain.csproj",
         "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
-        "outputPath": "C:\\Manu\\fiap\\fiap\\provas\\1semestre-2026\\net\\Novvi\\Novvi\\Novvi.Domain\\obj\\",
+        "outputPath": "C:\\Manu\\fiap\\fiap\\provas\\Novvi\\Novvi\\Novvi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -128,11 +110,25 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -144,26 +140,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.13, 9.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.13, 9.0.13]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.13, 9.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\ADM\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

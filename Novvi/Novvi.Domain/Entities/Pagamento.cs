@@ -7,10 +7,14 @@ namespace Novvi.Domain.Entities;
 public class Pagamento 
 {
     //id, tipo (credito ou pix), horario
-    public Guid Id { get; private set; } = Guid.NewGuid();
-    public TipoPagamento TipoPagamento { get; private set; }
-    public DateTime Horario { get; private set; } = DateTime.Now;
+    public Guid Id { get;  set; } = Guid.NewGuid();
+    public TipoPagamento TipoPagamento { get;  set; }
+    public DateTime Horario { get;  set; } = DateTime.Now;
 
+    public int PedidoId { get; set; }  
+
+    public Pedido Pedido { get; set; } 
+    
     public Pagamento(TipoPagamento tipoPagamento)
     {
         TipoPagamento = tipoPagamento;
