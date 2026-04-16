@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Novvi.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78ea4324c42ababfed76b261800d87f121af378c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a3d45e570d5619742c83ac09e3ec80094e4729c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Novvi.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Novvi.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
