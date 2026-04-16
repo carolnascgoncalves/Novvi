@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Novvi.Domain\Novvi.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

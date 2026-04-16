@@ -24,7 +24,7 @@ public class Usuario : EntidadeBase
         
         Enderecos = enderecos;
     }
-
+    
     public string MostrarHistoricoPedidos()
     {
         return "Historico Pedidos: " + HistoricoPedidos;

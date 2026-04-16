@@ -11,6 +11,14 @@ public class Produto : EntidadeBase
 
     public List<Pedido> Pedidos { get; private set; }
 
+    public Produto(string nome, string descricao, double preco, List<Pedido> pedidos)
+    {
+        Nome = nome;
+        Descricao = descricao;
+        Preco = preco;
+        Pedidos = pedidos;
+    }
+    
     public override string ToString()
     {
         return $"{Nome} (R$ {Preco}) - {Descricao} \n";

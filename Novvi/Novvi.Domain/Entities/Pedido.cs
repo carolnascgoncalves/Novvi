@@ -1,4 +1,5 @@
 ﻿using Novvi.Domain.Commons;
+using Novvi.Domain.Enums;
 
 namespace Novvi.Domain.Entities;
 
@@ -10,20 +11,21 @@ public class Pedido : EntidadeBase
     private const double freteFixo = 9.99;
     
     //id, data, frete
-    public DateTime Data { get; set; } = DateTime.Now;
-    public double Frete { get; set; } = freteFixo;
+    public DateTime Data { get; private set; } = DateTime.Now;
+    public double Frete { get; private set; } = freteFixo;
 
-    public Guid IdUsuario { get; set; }
-    public Guid IdFuncinario { get; set; }
-    public List<Produto> Produtos { get; set; }
+    public Guid IdUsuario { get; private set; }
+    public Guid IdFuncinario { get; private set; }
+    public List<Produto> Produtos { get; private set; }
     
-    public Pagamento Pagamento { get; set; }
+    public Pagamento Pagamento { get; private set; }
 
-    public Pedido(Guid idUsuario, Guid idFuncinario, List<Produto> produtos)
+    public Pedido(Guid idUsuario, Guid idFuncinario, List<Produto> produtos, Pagamento pagamento)
     {
         IdUsuario = idUsuario;
         IdFuncinario = idFuncinario;
         Produtos = produtos;
+        Pagamento = pagamento;
     }
 
     public string listarProdutos()
