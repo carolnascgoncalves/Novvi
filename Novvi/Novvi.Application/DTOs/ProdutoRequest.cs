@@ -20,7 +20,7 @@ public class ProdutoRequest
     [Required]
     public List<Pedido> Pedidos { get; set; }
 
-    public Produto toDomain()
+    public Produto ToDomain()
     {
         return new Produto(Nome, Descricao, Preco, Pedidos);
     }

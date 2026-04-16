@@ -2,7 +2,7 @@
 
 namespace Novvi.Application.Interfaces.Repositories;
 
-public interface IUserRepository
+public interface IUsuarioRepository
 {
     IReadOnlyCollection<Usuario> GetAll();
     Usuario? GetById(Guid id);

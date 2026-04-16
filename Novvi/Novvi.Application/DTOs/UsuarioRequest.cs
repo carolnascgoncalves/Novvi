@@ -17,7 +17,7 @@ public class UsuarioRequest
     [Required]
     public List<Endereco> Enderecos { get; set; }
     
-    public Usuario toDomain()
+    public Usuario ToDomain()
     {
         return new Usuario(Name, Email, Enderecos);
     }

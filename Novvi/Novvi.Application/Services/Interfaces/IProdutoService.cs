@@ -5,9 +5,9 @@ namespace Novvi.Application.Services.Interfaces;
 
 public interface IProdutoService
 {
-    IReadOnlyCollection<UsuarioResponse> GetAll();
+    IReadOnlyCollection<ProdutoResponse> GetAll();
 
-    UsuarioResponse? GetById(Guid id);
+    ProdutoResponse? GetById(Guid id);
     
     
 }
