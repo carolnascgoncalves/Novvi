@@ -2,7 +2,7 @@
 
 namespace Novvi.Application.DTOs;
 
-public class UserResponse
+public class UsuarioResponse
 {
     public Guid Id { get; set; }
     public string Nome { get; set; }
@@ -13,7 +13,7 @@ public class UserResponse
     
     public List<Pedido> HistoricoPedidos { get; set; }
     
-    public UserResponse(Usuario usuario)
+    public UsuarioResponse(Usuario usuario)
     {
         Id = usuario.Id;
         Nome = usuario.Nome;

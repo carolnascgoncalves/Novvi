@@ -3,7 +3,7 @@ using Novvi.Domain.Entities;
 
 namespace Novvi.Application.DTOs;
 
-public class UserRequest
+public class UsuarioRequest
 {
     [Required]
     [StringLength(150, MinimumLength = 2)]
