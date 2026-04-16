@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "igk++4kpCSM=",
-  "success": true,
+  "dgSpecHash": "GTTNHVYuXMw=",
+  "success": false,
   "projectFilePath": "D:\\Novvi\\Novvi\\Novvi.Infrastructure\\Novvi.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\labsfiap\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
@@ -84,5 +84,15 @@
     "C:\\Users\\labsfiap\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\labsfiap\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package EntityFramework with version (>= 9.0.0)\r\n  - Found 54 version(s) in nuget.org [ Nearest version: 7.0.0-beta4 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }
