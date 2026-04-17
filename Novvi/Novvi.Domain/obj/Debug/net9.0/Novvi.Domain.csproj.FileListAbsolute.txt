@@ -10,3 +10,16 @@ D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.dll
 D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\refint\Novvi.Domain.dll
 D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.pdb
 D:\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\ref\Novvi.Domain.dll
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\bin\Debug\net9.0\Novvi.Domain.deps.json
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\bin\Debug\net9.0\Novvi.Domain.dll
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\bin\Debug\net9.0\Novvi.Domain.pdb
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.csproj.AssemblyReference.cache
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.AssemblyInfoInputs.cache
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.AssemblyInfo.cs
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.csproj.CoreCompileInputs.cache
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.sourcelink.json
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.dll
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\refint\Novvi.Domain.dll
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\Novvi.Domain.pdb
+C:\Manu\fiap\fiap\provas\Novvi\Novvi\Novvi.Domain\obj\Debug\net9.0\ref\Novvi.Domain.dll

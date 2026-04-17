@@ -21,4 +21,9 @@ public class PedidoRequest
     {
         return new Pedido(IdUsuario, IdFuncinario, Produtos, Pagamento);
     }
+
+    public Pedido ToDomain()
+    {
+        throw new NotImplementedException();
+    }
 }

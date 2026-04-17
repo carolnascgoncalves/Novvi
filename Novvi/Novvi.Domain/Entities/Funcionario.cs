@@ -10,6 +10,11 @@ public class Funcionario : EntidadeBase
 
     public List<Pedido> PedidosRealizados { get; private set; }
 
+    private Funcionario()
+    {
+        PedidosRealizados = new List<Pedido>();
+    }
+    
     public Funcionario(string nome, double salario)
     {
         if (nome.Length < 2 || nome == null) 

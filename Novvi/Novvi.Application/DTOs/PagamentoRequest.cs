@@ -15,4 +15,9 @@ public class PagamentoRequest
     {
         return new Pagamento(PedidoId, TipoPagamento);
     }
+
+    public Pagamento ToDomain()
+    {
+        throw new NotImplementedException();
+    }
 }

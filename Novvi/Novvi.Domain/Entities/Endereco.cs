@@ -9,6 +9,8 @@ public class Endereco
     public string Complemento { get; private set; }
 
     public Guid IdUsuario { get; private set; }
+    
+    
 
     public Endereco(string cep, string complemento, Guid idUsuario)
     {
@@ -23,4 +25,6 @@ public class Endereco
         
         IdUsuario = idUsuario;
     }
+
+    public Endereco() { }
 }

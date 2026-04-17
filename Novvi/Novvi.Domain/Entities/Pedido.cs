@@ -20,6 +20,7 @@ public class Pedido : EntidadeBase
     
     public Pagamento Pagamento { get; private set; }
 
+    
     public Pedido(Guid idUsuario, Guid idFuncinario, List<Produto> produtos, Pagamento pagamento)
     {
         IdUsuario = idUsuario;
@@ -27,6 +28,12 @@ public class Pedido : EntidadeBase
         Produtos = produtos;
         Pagamento = pagamento;
     }
+    
+    private Pedido() 
+    {
+        Produtos = new List<Produto>();
+    }
+    
 
     public string listarProdutos()
     {

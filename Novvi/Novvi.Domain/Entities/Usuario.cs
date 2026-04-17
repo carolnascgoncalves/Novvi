@@ -12,6 +12,12 @@ public class Usuario : EntidadeBase
     public List<Endereco> Enderecos { get; private set; }
     public List<Pedido> HistoricoPedidos { get; private set; }
 
+    private Usuario()
+    {
+        Enderecos = new List<Endereco>();
+        HistoricoPedidos = new List<Pedido>();
+    }
+    
     public Usuario(string nome, string email, List<Endereco> enderecos)
     {
         if (nome == null || nome.Length < 2)

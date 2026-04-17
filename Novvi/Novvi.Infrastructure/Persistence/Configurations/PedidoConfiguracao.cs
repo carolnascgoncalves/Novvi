@@ -35,7 +35,7 @@ public class PedidoConfiguracao : IEntityTypeConfiguration<Pedido>
                 join =>
                 {
                     join.ToTable("Ped_Prod");
-                    join.HasKey("ProdutoId", "PedidoId");
+                    join.HasKey("PedidoId", "ProdutoId");
                 });
         
         builder.HasOne<Funcionario>()

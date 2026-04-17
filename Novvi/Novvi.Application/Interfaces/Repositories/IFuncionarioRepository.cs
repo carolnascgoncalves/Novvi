@@ -2,7 +2,7 @@
 
 namespace Novvi.Application.Interfaces.Repositories;
 
-public interface IFuncionario
+public interface IFuncionarioRepository
 {
     IReadOnlyCollection<Funcionario> GetAll();
     Funcionario? GetById(Guid id);

@@ -16,4 +16,9 @@ public class FuncionarioRequest
     {
         return new Funcionario(Nome, Salario);
     }
+
+    public Funcionario ToDomain()
+    {
+        throw new NotImplementedException();
+    }
 }

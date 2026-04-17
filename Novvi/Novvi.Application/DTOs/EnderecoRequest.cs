@@ -20,4 +20,9 @@ public class EnderecoRequest
     {
         return new Endereco(Cep, Complemento, IdUsuario);
     }
+
+    public Endereco ToDomain()
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -19,6 +19,11 @@ public class Produto : EntidadeBase
         Pedidos = pedidos;
     }
     
+    private Produto()
+    {
+        Pedidos = new List<Pedido>();
+    }
+    
     public override string ToString()
     {
         return $"{Nome} (R$ {Preco}) - {Descricao} \n";

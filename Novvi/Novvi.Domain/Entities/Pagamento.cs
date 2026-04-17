@@ -13,6 +13,8 @@ public class Pagamento
 
     public int PedidoId { get; private set; }  
     
+    private Pagamento() { }
+    
     public Pagamento(int pedidoId, TipoPagamento? tipoPagamento = Enums.TipoPagamento.Cartao)
     {
         TipoPagamento = tipoPagamento;
