@@ -49,6 +49,10 @@ Pedido — possui — Pagamento (1:1):
 Funcionário — realiza — Pedido (1:N):
 - Um funcionário pode realizar vários pedidos, enquanto cada pedido pode ser realizado por apenas um funcionário.
 
+## 📊 Diagrama
+Confira abaixo nosso diagrama de arquitetura do projeto:
+![Diagrama do Projeto](./assets/diagrama.jpeg)
+
 ## 🔗 Acesse nosso Repositório
 Veja mais a fundo toda a estrutura do nosso projeto com o Github!  
 [Clique aqui para acessar](https://github.com/carolnascgoncalves/Novvi.git)
